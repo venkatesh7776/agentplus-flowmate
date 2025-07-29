@@ -12,11 +12,6 @@ const HeroSection = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-brand-surface border border-border/50 text-sm text-muted-foreground mb-8">
-            <CheckCircle className="w-4 h-4 text-brand-orange mr-2" />
-            Trusted by 500+ businesses worldwide
-          </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
@@ -71,17 +66,6 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Social Proof */}
-          <div className="mt-16 text-center">
-            <p className="text-sm text-muted-foreground mb-4">Trusted by leading companies</p>
-            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              {/* Placeholder for company logos */}
-              <div className="px-6 py-2 bg-brand-surface rounded-lg text-sm font-medium">TechCorp</div>
-              <div className="px-6 py-2 bg-brand-surface rounded-lg text-sm font-medium">InnovateLLC</div>
-              <div className="px-6 py-2 bg-brand-surface rounded-lg text-sm font-medium">ScaleUp Inc</div>
-              <div className="px-6 py-2 bg-brand-surface rounded-lg text-sm font-medium">GrowthCo</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
